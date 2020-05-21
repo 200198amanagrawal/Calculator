@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     android:background="#1B1A1A"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:divider="@drawable/divider"
+    android:showDividers="middle">
 
     <ImageView
         android:id="@+id/imageView2"
