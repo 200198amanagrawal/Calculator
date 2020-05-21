@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1A1A"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/technology" />
+
+    <EditText
+        android:id="@+id/edfirstno"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#DD7C25" />
+
+    <EditText
+        android:id="@+id/editsecondno"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#DD7C25" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:background="#FF9800"
+        android:text="@string/add"
+        android:textColor="@android:color/black"
+        android:textColorHint="#00E7DBDB" />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:background="#FF9800"
+        android:text="@string/sub"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnmul"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:background="#FF9800"
+        android:text="@string/mul"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:background="#FF9800"
+        android:text="@string/div"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:hint="answer"
+        android:textColor="#DD7C25"
+        android:textColorHint="#DD7C25"
+        android:textSize="20dp" />
+</LinearLayout>
