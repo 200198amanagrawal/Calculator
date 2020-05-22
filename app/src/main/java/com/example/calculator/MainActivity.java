@@ -2,6 +2,7 @@ package com.example.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -35,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
                 ans=firstvalue+secondvalue;
                 answer.setText("="+ans);
                 Toast.makeText(MainActivity.this,ans+"",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(MainActivity.this,SecondActivity.class);
+                intent.putExtra("data",ans+"");
+                startActivity(intent);
             }
         });
         btnsub.setOnClickListener(new View.OnClickListener() {
