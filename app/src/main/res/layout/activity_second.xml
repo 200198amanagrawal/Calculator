@@ -21,18 +21,40 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/textView5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textview_bg"
+            android:fontFamily="@font/aclonica"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Carl Jonhson"
+            android:textSize="30sp" />
+
+        <TextView
             android:id="@+id/textresult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
             android:text="TextView"
             android:textColor="#E6CCCC"
             android:textSize="30sp" />
 
         <Button
             android:id="@+id/share"
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
             android:background="@drawable/textview_bg"
-            android:text="Button" />
+            android:drawableRight="?attr/actionModeShareDrawable"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Share"
+            android:textSize="24sp" />
     </LinearLayout>
 </LinearLayout>
